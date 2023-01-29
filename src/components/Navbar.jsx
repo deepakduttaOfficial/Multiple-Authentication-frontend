@@ -9,7 +9,7 @@ import { AuthContext } from "../context/AuthContext";
 
 export default function Navbar() {
   const louOut = () => {
-    window.open("http://localhost:8000/api/v1/logout", "_self");
+    // window.open("http://localhost:8000/api/v1/logout", "_self");
   };
   const { isAuthenticated } = useContext(AuthContext);
 
